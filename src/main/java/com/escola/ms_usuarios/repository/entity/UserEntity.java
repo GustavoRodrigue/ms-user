@@ -3,17 +3,23 @@ package com.escola.ms_usuarios.repository.entity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.UUID;
 
 @Data
 @Entity
-@Table(name="usuario")
-public class UsuarioEntity {
+@Builder
+@Table(name="user")
+@AllArgsConstructor
+@NoArgsConstructor
+public class UserEntity {
 
     @Id
     private UUID id;
-    private String nome;
-    private UsuarioEnum tipo;
+    private String name;
+    private UserEnum type;
 }
