@@ -1,7 +1,7 @@
-package com.escola.ms_usuarios.exceptions;
+package com.school.ms_user.exceptions;
 
-import com.escola.ms_usuarios.dto.ErrorDto;
-import com.escola.ms_usuarios.dto.ErrorResponseDto;
+import com.school.ms_user.dto.ErrorDto;
+import com.school.ms_user.dto.ErrorResponseDto;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.converter.HttpMessageNotReadableException;

@@ -1,4 +1,4 @@
-package com.escola.ms_usuarios.repository.entity;
+package com.school.ms_user.repository.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

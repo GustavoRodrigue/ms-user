@@ -1,8 +1,8 @@
-package com.escola.ms_usuarios.controller;
+package com.school.ms_user.controller;
 
-import com.escola.ms_usuarios.dto.UserDto;
-import com.escola.ms_usuarios.repository.entity.UserEntity;
-import com.escola.ms_usuarios.service.UserService;
+import com.school.ms_user.dto.UserDto;
+import com.school.ms_user.repository.entity.UserEntity;
+import com.school.ms_user.service.UserService;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

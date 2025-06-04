@@ -1,25 +1,22 @@
-package com.escola.ms_usuarios.controller;
+package com.school.ms_user.controller;
 
-import com.escola.ms_usuarios.dto.UserDto;
-import com.escola.ms_usuarios.repository.entity.UserEntity;
-import com.escola.ms_usuarios.repository.entity.UserEnum;
-import com.escola.ms_usuarios.service.UserService;
+import com.school.ms_user.dto.UserDto;
+import com.school.ms_user.repository.entity.UserEntity;
+import com.school.ms_user.repository.entity.UserEnum;
+import com.school.ms_user.service.UserService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.http.ResponseEntity;
 
-import java.util.Collections;
 import java.util.List;
 import java.util.UUID;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
 class UserControllerTest {

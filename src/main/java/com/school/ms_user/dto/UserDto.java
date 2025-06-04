@@ -1,6 +1,6 @@
-package com.escola.ms_usuarios.dto;
+package com.school.ms_user.dto;
 
-import com.escola.ms_usuarios.repository.entity.UserEnum;
+import com.school.ms_user.repository.entity.UserEnum;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

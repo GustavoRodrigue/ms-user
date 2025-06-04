@@ -1,6 +1,6 @@
-package com.escola.ms_usuarios.repository;
+package com.school.ms_user.repository;
 
-import com.escola.ms_usuarios.repository.entity.UserEntity;
+import com.school.ms_user.repository.entity.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

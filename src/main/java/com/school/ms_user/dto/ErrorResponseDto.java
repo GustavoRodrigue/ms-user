@@ -1,4 +1,4 @@
-package com.escola.ms_usuarios.dto;
+package com.school.ms_user.dto;
 
 import lombok.Data;
 

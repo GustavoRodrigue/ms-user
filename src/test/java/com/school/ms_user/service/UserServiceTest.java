@@ -1,12 +1,10 @@
-package com.escola.ms_usuarios.service;
+package com.school.ms_user.service;
 
-import com.escola.ms_usuarios.dto.ErrorResponseDto;
-import com.escola.ms_usuarios.dto.UserDto;
-import com.escola.ms_usuarios.repository.UserRepository;
-import com.escola.ms_usuarios.repository.entity.UserEntity;
-import com.escola.ms_usuarios.repository.entity.UserEnum;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
-import lombok.Builder;
+import com.school.ms_user.dto.ErrorResponseDto;
+import com.school.ms_user.dto.UserDto;
+import com.school.ms_user.repository.UserRepository;
+import com.school.ms_user.repository.entity.UserEntity;
+import com.school.ms_user.repository.entity.UserEnum;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -14,14 +12,11 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.mockito.Mockito.*;
-import org.springframework.beans.propertyeditors.UUIDEditor;
 
 import java.util.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.ArgumentMatchers.refEq;
 import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)

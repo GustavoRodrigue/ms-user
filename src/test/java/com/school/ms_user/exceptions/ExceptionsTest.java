@@ -1,4 +1,4 @@
-package com.escola.ms_usuarios.exceptions;
+package com.school.ms_user.exceptions;
 
 import org.junit.jupiter.api.Test;
 

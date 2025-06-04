@@ -1,9 +1,9 @@
-package com.escola.ms_usuarios.service;
+package com.school.ms_user.service;
 
-import com.escola.ms_usuarios.dto.ErrorResponseDto;
-import com.escola.ms_usuarios.dto.UserDto;
-import com.escola.ms_usuarios.repository.UserRepository;
-import com.escola.ms_usuarios.repository.entity.UserEntity;
+import com.school.ms_user.dto.ErrorResponseDto;
+import com.school.ms_user.dto.UserDto;
+import com.school.ms_user.repository.UserRepository;
+import com.school.ms_user.repository.entity.UserEntity;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
